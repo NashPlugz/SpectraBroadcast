@@ -1,0 +1,15 @@
+name: SpectraBroadcast
+main: me.nashplugz.spectrab.SpectraBroadcast
+version: 1.0.0
+api-version: 1.21
+description: A simple broadcast plugin for Minecraft
+author: NashPlugz
+commands:
+  spectrareload:
+    description: Reloads the SpectraBroadcast configuration.
+    usage: /spectrareload
+    permission: spectrabroadcast.reload
+permissions:
+  spectrabroadcast.reload:
+    description: Allows reloading the SpectraBroadcast configuration.
+    default: op

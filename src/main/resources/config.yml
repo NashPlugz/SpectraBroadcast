@@ -1,0 +1,18 @@
+# SpectraBroadcast Configuration
+#
+# Intervals are specified as follows:
+# - For seconds, use the format 'Xs' (e.g., '300s' for every 300 seconds)
+# - For minutes, use the format 'Xm' (e.g., '3m' for every 3 minutes)
+# - For hours, use the format 'Xh' (e.g., '3h' for every 3 hours)
+#
+# Messages can include gradient and color codes using MiniMessage syntax.
+# Example broadcasts configuration:
+# You can also edit the Prefix for the plugin!
+prefix: "<bold>[Broadcast]</bold>"
+broadcasts:
+  - interval: '300s'
+    message: "<gradient:red:blue>This is a broadcast every 300 seconds.</gradient>"
+  - interval: '5m'
+    message: "<yellow>This is a broadcast every 5 minutes.</yellow>"
+  - interval: '1h'
+    message: "<rainbow>This is a broadcast every hour.</rainbow>"
